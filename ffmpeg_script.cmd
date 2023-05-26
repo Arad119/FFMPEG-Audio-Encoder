@@ -63,7 +63,7 @@ if "!output_option!"=="1" (
 )
 
 rem Run ffmpeg command
-ffmpeg -i "!input_file!.mkv" -map 0:v -map 0:a -c:v copy -c:a aac -ac !audio_channels! -b:a 384k -af "volume=+1dB" "!output_filename!"
+ffmpeg -i "!input_file!.mkv" -map 0:v -map 0:a -c:v copy -c:a aac -ac !audio_channels! -b:a 384k "!output_filename!"
 
 endlocal
 pause
