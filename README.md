@@ -107,7 +107,7 @@ To be able to use the script in the first place, you need to have FFmpeg install
 ### Running The Script
 
 Option 1 (Downloading the Script):
-1. Download the latest version of the script via [FFMPEG-Audio-Encoder/ffmpeg_script.cmd](https://github.com/Arad119/FFMPEG-Audio-Encoder/blob/main/ffmpeg_script.cmd).
+1. Download the latest version of the script via [FFMPEG-Audio-Encoder/ffmpeg_script.cmd](https://github.com/Arad119/FFMPEG-Audio-Encoder/releases/tag/1.0.0).
 2. Run the script in the same directory your desired input file is located.
 
 Option 2 (Manually Adding):
